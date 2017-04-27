@@ -13,6 +13,5 @@
 @property(nonatomic,copy)NSString* lianxirenStr;
 @property(nonatomic,copy)NSString* dizhiStr;
 @property(nonatomic,copy)NSString* dianhuaStr;
-@property(nonatomic,copy)NSString* testdianhuaStr;
 
 @end
