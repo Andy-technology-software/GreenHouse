@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  AndyCoder
+//
+//  Created by lingnet on 16/4/11.
+//  Copyright © 2016年 Andy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+#import "Masonry/View+MASAdditions.h"
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#import "MyController.h"
+#import "RegularExpressions.h"
+#import "HUD.h"
+#import <IQKeyboardReturnKeyHandler.h>
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import <IQUIView+IQKeyboardToolbar.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "Masonry.h"
+#import "HMSegmentedControl.h"
+#import "FDAlertView.h"
+#import "UITextView+placeholder.h"
+#import "RequestURL.h"
+#import <IQKeyboardManager.h>
+#import "ZYQAssetPickerController.h"
+#import "VPImageCropperViewController.h"
+#import "HMSegmentedControl.h"
+#import "DBManager.h"
+#import "LoginDataBaseModel.h"
+#import "RequestURL.h"
+#import "CCLocationManager.h"
+#import "CLLocation+YCLocation.h"
+#import "GPDateView.h"
+#import "NSDate+Helper.h"
+
+#endif /* PrefixHeader_pch */
